@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact card</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="contact-container">
+
+        <form action="submit" class="contact-form">
+            <h1>Contact Us</h1>
+            <div class="username">
+            <label for="firstname">First Name</label>
+            <input class="imp" type="text" name="firstname" id="firstname" required>
+            <label for="lastname">Last Name</label>
+            <input class="imp" type="text" name="lastname" id="lastname" required>
+            </div>
+
+            <div class="email">
+            <label>Email Address</label>
+            <input class="imp" type="email" name="" id="" required>
+            </div>
+            
+            <section class="selection">
+            <h3>Query Type</h3>
+            <div class="query">
+                <label>
+                    <input type="radio" name="option" id="" value="1"> General Enquiry
+                </label>
+            </div>
+            <div class="query">
+                <label>
+                    <input type="radio" name="option" id="" value="1"> Support Request
+                </label>
+            </div>
+            </section>
+
+            <div class="message">
+            <h3>Message</h3>
+            <textarea class="text" name="text" id=""></textarea>
+            </div>
+
+            <div class="confirm">
+            <p><input type="checkbox" name="" id="" required> I consent to being contacted by the team</p>
+            </div>
+
+            <div class="button">
+            <button class="submit-button">Submit</button>
+            </div>
+        </form>
+        
+
+    </div>
+</body>
+</html>
